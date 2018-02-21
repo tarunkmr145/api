@@ -16,6 +16,7 @@ class ReviewResource extends Resource
     {
         return [
         //this is coming from ModelReviewFactory
+        'id' =>$this->id,
         'customer' =>$this->customer,
         'body' =>$this->review,
         'star' => $this->star
